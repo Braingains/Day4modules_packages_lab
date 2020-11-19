@@ -1,5 +1,13 @@
 from modules.output import *
-from data.task_list import *
+
+
+#ANSWER = user.input("would you like to use a pre_made task_list?")
+#if answer == y:
+#import data
+answer = input("Would you like to use a pre-made task list? y/n ")
+
+if answer == "n":
+    from data.task_list import *
 
 
 while (True):
